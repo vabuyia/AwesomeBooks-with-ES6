@@ -31,6 +31,11 @@
 - GitHub: [@fherrerao](https://github.com/fherrerao)
 - Twitter: [@fherrera0206](https://twitter.com/fherrera0206)
 
+**Vincent Abuya**
+
+- GitHub: [@vabuyia](https://github.com/vabuyia)
+- Twitter: [@abuyag](https://twitter.com/abuyag)
+
 ## Getting Started
 
 * You will not need additional instructions on installing Prerequisites.
