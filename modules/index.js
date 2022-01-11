@@ -1,18 +1,12 @@
 import printTime from "./currentDate.js";
 import Books from "./classBooks.js";
+import navigation from "./navigation.js";
 
 const list = document.querySelector('ul');
 const form = document.querySelector('form');
 const title = document.querySelector('#title');
 const author = document.querySelector('#author');
 const modalContainer = document.querySelector('.modal-container');
-const nav = document.querySelector('nav');
-const listTab = document.querySelector('.list-tab');
-const formTab = document.querySelector('.form-tab');
-const contactTab = document.querySelector('.contact-tab');
-const listSection = document.getElementById('list-section');
-const formSection = document.getElementById('form-section');
-const contactSection = document.getElementById('contact-section');
 
 const books = new Books();
 
@@ -102,29 +96,6 @@ form.addEventListener('submit', (event) => {
   removeBook();
 });
 
-nav.addEventListener('click', (event) => {
-  if (event.target.innerText === 'List') {
-    listSection.style.display = 'block';
-    formSection.style.display = 'none';
-    contactSection.style.display = 'none';
-    listTab.classList.add('red');
-    formTab.classList.remove('red');
-    contactTab.classList.remove('red');
-  } else if (event.target.innerText === 'Add new') {
-    listSection.style.display = 'none';
-    formSection.style.display = 'block';
-    contactSection.style.display = 'none';
-    listTab.classList.remove('red');
-    formTab.classList.add('red');
-    contactTab.classList.remove('red');
-  } else if (event.target.innerText === 'Contact') {
-    listSection.style.display = 'none';
-    formSection.style.display = 'none';
-    contactSection.style.display = 'block';
-    listTab.classList.remove('red');
-    formTab.classList.remove('red');
-    contactTab.classList.add('red');
-  }
-});
+navigation();
 
 setInterval(printTime, 1000);
