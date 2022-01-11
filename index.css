@@ -35,7 +35,7 @@ main {
 }
 
 body {
-  background: url(background.jpg) no-repeat;
+  background: url(Assets/background.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -175,13 +175,13 @@ article p {
 
 #contact-section p,
 #contact-section div {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 #contact-section div {
   padding-left: 50px;
   font-family: initial;
-  line-height: 35px;
+  line-height: 25px;
 }
 
 #contact-section div strong {
