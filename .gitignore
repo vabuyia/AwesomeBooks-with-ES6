@@ -1,4 +1,6 @@
 # .gitignore
 node_modules/
 .DS_Store
-script.js
+.eslintrc.json
+.hintrc
+.stylelintrc.json

@@ -1,0 +1,24 @@
+{
+  "name": "awesomebooks-with-es6",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet) <h1 align=\"center\">Awesome Books</h1>",
+  "main": "index.js",
+  "dependencies": {
+    "luxon": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IbrohimRasulov/AwesomeBooks-with-ES6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IbrohimRasulov/AwesomeBooks-with-ES6/issues"
+  },
+  "homepage": "https://github.com/IbrohimRasulov/AwesomeBooks-with-ES6#readme"
+}

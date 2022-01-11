@@ -3,32 +3,38 @@
 
 ## About The Project
 
-> We created an app to store, display and remove books from localStorage and UI. This project has been built with the help of modern CSS3 and ES6. Check the live demo to try.
+> In this project, we restructure our Awesome books app code. The goal is to make it more organized by using modules. We will also practice the ES6 syntax that we have learned.
 
-![screenshot](Screenshot1.png)
-![screenshot](Screenshot2.png)
+![screenshot](Assets/Screenshot1.png)
+![screenshot](Assets/Screenshot2.png)
 
 ### Built With
 
-* [HTML](https://www.w3schools.com/html/)
-* [CSS](https://www.w3schools.com/css/)
-* [JS](https://www.javascript.com/)
+- HTML5, CSS3
+- ES6 modules
+- GitHub pages, VS Code, Live Server
 
 ### Live Demo
 
-[Live Demo Link](https://carloshs1994.github.io/AwesomeBooks/)
+[Live Demo Link](https://ibrohimrasulov.github.io/AwesomeBooks-with-ES6//)
 
 ## Authors
-
-👤 **Carlos Herver Solano**
-
-- GitHub: [@carloshs1994](https://github.com/carloshs1994)
 
 👤 **Ibrohim Rasulov**
 
 - GitHub: [@IbrohimRasulov](https://github.com/IbrohimRasulov)
 - Twitter: [@IbrohimRasu1ov](https://twitter.com/IbrohimRasu1ov)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ibrohim-rasulov-a88352209/)
+
+👤 **Fernando Herrera**
+
+- GitHub: [@fherrerao](https://github.com/fherrerao)
+- Twitter: [@fherrera0206](https://twitter.com/fherrera0206)
+
+**Vincent Abuya**
+
+- GitHub: [@vabuyia](https://github.com/vabuyia)
+- Twitter: [@abuyag](https://twitter.com/abuyag)
 
 ## Getting Started
 

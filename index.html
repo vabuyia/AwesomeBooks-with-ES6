@@ -5,8 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Awesome Books</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="scriptForClasses.js" defer></script>
+  <link rel="stylesheet" href="index.css">
+  <script type="module" src="modules/index.js" defer></script>
+  <script src="https://moment.github.io/luxon/global/luxon.min.js" defer></script>
 </head>
 <body>
   <header>
@@ -18,8 +19,9 @@
       <div>|</div>
       <div class="contact-tab">Contact</div>
     </nav>
-    <p class="time-and-date"></p>
   </header>
+
+  <div id="currentDate"></div>
 
   <main>
     <section id="list-section">
