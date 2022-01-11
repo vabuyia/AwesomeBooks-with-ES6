@@ -1,4 +1,5 @@
-import {printTime} from "./currentDate.js";
+import printTime from "./currentDate.js";
+import Books from "./classBooks.js";
 
 const list = document.querySelector('ul');
 const form = document.querySelector('form');
@@ -12,24 +13,6 @@ const contactTab = document.querySelector('.contact-tab');
 const listSection = document.getElementById('list-section');
 const formSection = document.getElementById('form-section');
 const contactSection = document.getElementById('contact-section');
-class Books {
-  constructor() {
-    this.bookList = [];
-  }
-
-  addNewBook(newBook) {
-    return this.bookList.push(newBook);
-  }
-
-  removeBooksFromList(element) {
-    for (let i = 0; i < this.bookList.length; i += 1) {
-      if (element === this.bookList[i].title) {
-        this.bookList.splice(i, 1);
-      }
-    }
-    return this.bookList;
-  }
-}
 
 const books = new Books();
 
