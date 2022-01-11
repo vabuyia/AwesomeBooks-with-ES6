@@ -1,4 +1,4 @@
-export default function navigation() {
+const navigation = () => {
   const nav = document.querySelector('nav');
   const listTab = document.querySelector('.list-tab');
   const formTab = document.querySelector('.form-tab');
@@ -32,3 +32,5 @@ export default function navigation() {
     }
   });
 }
+
+export {navigation}

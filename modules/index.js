@@ -1,6 +1,6 @@
-import printTime from "./currentDate.js";
+import {printTime} from "./currentDate.js";
 import Books from "./classBooks.js";
-import navigation from "./navigation.js";
+import {navigation} from "./navigation.js";
 
 const list = document.querySelector('ul');
 const form = document.querySelector('form');
@@ -10,7 +10,7 @@ const modalContainer = document.querySelector('.modal-container');
 
 const books = new Books();
 
-function checkIfEmpty() {
+const checkIfEmpty = () => {
   if (books.bookList.length !== 0) {
     list.style.display = 'block';
   } else {
@@ -18,11 +18,11 @@ function checkIfEmpty() {
   }
 }
 
-function addToLocalStorage(books) {
+const addToLocalStorage = (books) => {
   localStorage.setItem('books', JSON.stringify(books));
 }
 
-function appendBooksToList() {
+const appendBooksToList = () => {
   list.innerHTML = '';
   books.bookList.forEach((book, index) => {
     const li = document.createElement('li');
@@ -40,14 +40,14 @@ function appendBooksToList() {
   });
 }
 
-function updateDomAndLocalStorage() {
+const updateDomAndLocalStorage = () => {
   appendBooksToList();
   localStorage.clear();
   addToLocalStorage(books);
   checkIfEmpty();
 }
 
-function removeBook() {
+const removeBook = () => {
   const removeButtons = document.getElementsByClassName('remove');
   for (let i = 0; i < removeButtons.length; i += 1) {
     const button = removeButtons[i];
@@ -60,8 +60,6 @@ function removeBook() {
   }
 }
 
-/* eslint max-classes-per-file: ["error", 2] */
-
 class Book {
   constructor(title, author) {
     this.title = title;
@@ -69,7 +67,7 @@ class Book {
   }
 }
 
-function getFromLocalStorage() {
+const getFromLocalStorage = () => {
   if (localStorage.length !== 0) {
     const booksFromLocStg = JSON.parse(localStorage.getItem('books'));
     booksFromLocStg.bookList.forEach((book) => {
