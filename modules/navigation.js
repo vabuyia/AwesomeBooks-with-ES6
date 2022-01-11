@@ -31,6 +31,6 @@ const navigation = () => {
       contactTab.classList.add('red');
     }
   });
-}
+};
 
-export {navigation}
+export { navigation as default };

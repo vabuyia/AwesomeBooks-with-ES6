@@ -1,6 +1,6 @@
-import {printTime} from "./currentDate.js";
-import Books from "./classBooks.js";
-import {navigation} from "./navigation.js";
+import printTime from './currentDate.js';
+import Books from './classBooks.js';
+import navigation from './navigation.js';
 
 const list = document.querySelector('ul');
 const form = document.querySelector('form');
@@ -16,11 +16,11 @@ const checkIfEmpty = () => {
   } else {
     list.style.display = 'none';
   }
-}
+};
 
 const addToLocalStorage = (books) => {
   localStorage.setItem('books', JSON.stringify(books));
-}
+};
 
 const appendBooksToList = () => {
   list.innerHTML = '';
@@ -38,14 +38,14 @@ const appendBooksToList = () => {
     `;
     list.appendChild(li);
   });
-}
+};
 
 const updateDomAndLocalStorage = () => {
   appendBooksToList();
   localStorage.clear();
   addToLocalStorage(books);
   checkIfEmpty();
-}
+};
 
 const removeBook = () => {
   const removeButtons = document.getElementsByClassName('remove');
@@ -58,7 +58,7 @@ const removeBook = () => {
       removeBook();
     });
   }
-}
+};
 
 class Book {
   constructor(title, author) {
@@ -76,7 +76,7 @@ const getFromLocalStorage = () => {
     updateDomAndLocalStorage();
     removeBook();
   }
-}
+};
 
 getFromLocalStorage();
 

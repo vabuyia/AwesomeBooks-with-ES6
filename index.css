@@ -110,7 +110,7 @@ p {
 button {
   box-shadow: rgba(0, 0, 0, 0.4) 5px 5px;
   border: 2px solid #444;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Verdana", sans-serif;
   border-radius: 3px;
 }
 
