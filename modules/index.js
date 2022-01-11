@@ -1,6 +1,8 @@
+/* eslint-disable */
 import printTime from './currentDate.js';
 import Books from './classBooks.js';
 import navigation from './navigation.js';
+/* eslint-enable */
 
 const list = document.querySelector('ul');
 const form = document.querySelector('form');
