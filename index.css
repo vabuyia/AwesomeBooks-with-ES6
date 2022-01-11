@@ -206,12 +206,9 @@ article {
   border-radius: 10px;
 }
 
-.time-and-date {
-  color: #000;
+#currentDate {
+  float: right;
+  font-size: 22px;
   font-family: monospace;
-  font-size: 15px;
-  font-weight: bolder;
-  position: absolute;
-  top: 100px;
-  right: 2%;
+  margin: 0 15px;
 }
