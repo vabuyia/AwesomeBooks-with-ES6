@@ -24,6 +24,7 @@
 
 - GitHub: [@vabuyia](https://github.com/vabuyia)
 - Twitter: [@abuyag](https://twitter.com/abuyag)
+-Mail:
 
 ## Getting Started
 
