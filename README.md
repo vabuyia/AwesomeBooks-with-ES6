@@ -4,7 +4,7 @@
 
 ## About The Project
 
-> In this project, we restructure our Awesome books app code. The goal is to make it more organized by using modules. We will also practice the ES6 syntax that we have learned.
+> In this project, I restructure my Awesome books app code. The goal is to make it more organized by using modules. We will also practice the ES6 syntax that we have learned.
 
 ![screenshot](Assets/Screenshot1.png)
 ![screenshot](Assets/Screenshot2.png)
@@ -21,11 +21,11 @@
 
 ## Authors
 
-👤**Vincent Abuya**
+👤 **Ibrohim Rasulov**
 
-- GitHub: [@vabuyia](https://github.com/vabuyia)
-- Twitter: [@abuyag](https://twitter.com/abuyag)
-  -Mail:[vabuyia@gmail.com]
+- GitHub: [@IbrohimRasulov](https://github.com/IbrohimRasulov)
+- Twitter: [@IbrohimRasu1ov](https://twitter.com/IbrohimRasu1ov)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ibrohim-rasulov-a88352209/)
 
 ## Getting Started
 
