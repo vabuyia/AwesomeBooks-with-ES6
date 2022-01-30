@@ -16,7 +16,7 @@
 
 ### Live Demo
 
-[Live Demo Link](https://ibrohimrasulov.github.io/AwesomeBooks-with-ES6//)
+[Live Demo Link](https://ibrohimrasulov.github.io/AwesomeBooks-with-ES6/)
 
 ## Authors
 
