@@ -1,8 +1,6 @@
-
 import printTime from './modules/currentDate.js';
-import Books from './modules/classBooks.js'
+import Books from './modules/classBooks.js';
 import navigation from './modules/navigation.js';
-
 
 const list = document.querySelector('ul');
 const form = document.querySelector('form');
